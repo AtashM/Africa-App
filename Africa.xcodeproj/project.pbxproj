@@ -12,6 +12,9 @@
 		74654A192A2CB0E000A6ED4E /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A182A2CB0E000A6ED4E /* AnimalDetailView.swift */; };
 		74654A1B2A2CB3B200A6ED4E /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A1A2A2CB3B200A6ED4E /* HeadingView.swift */; };
 		74654A1D2A2CB58500A6ED4E /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A1C2A2CB58500A6ED4E /* InsetGalleryView.swift */; };
+		74654A1F2A2CF76000A6ED4E /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A1E2A2CF76000A6ED4E /* InsetFactView.swift */; };
+		74654A212A2CFAC700A6ED4E /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A202A2CFAC700A6ED4E /* InsetMapView.swift */; };
+		74654A232A2CFFC400A6ED4E /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A222A2CFFC400A6ED4E /* ExternalWebLinkView.swift */; };
 		BD72F66B2A2B5DC20073EB2C /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72F66A2A2B5DC20073EB2C /* AfricaApp.swift */; };
 		BD72F66D2A2B5DC20073EB2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72F66C2A2B5DC20073EB2C /* ContentView.swift */; };
 		BD72F66F2A2B5DC40073EB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD72F66E2A2B5DC40073EB2C /* Assets.xcassets */; };
@@ -45,6 +48,9 @@
 		74654A182A2CB0E000A6ED4E /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		74654A1A2A2CB3B200A6ED4E /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		74654A1C2A2CB58500A6ED4E /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		74654A1E2A2CF76000A6ED4E /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		74654A202A2CFAC700A6ED4E /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		74654A222A2CFFC400A6ED4E /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 		BD72F6672A2B5DC20073EB2C /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD72F66A2A2B5DC20073EB2C /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		BD72F66C2A2B5DC20073EB2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -174,6 +180,9 @@
 				74654A182A2CB0E000A6ED4E /* AnimalDetailView.swift */,
 				74654A1A2A2CB3B200A6ED4E /* HeadingView.swift */,
 				74654A1C2A2CB58500A6ED4E /* InsetGalleryView.swift */,
+				74654A1E2A2CF76000A6ED4E /* InsetFactView.swift */,
+				74654A202A2CFAC700A6ED4E /* InsetMapView.swift */,
+				74654A222A2CFFC400A6ED4E /* ExternalWebLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,12 +291,15 @@
 				BD72F66D2A2B5DC20073EB2C /* ContentView.swift in Sources */,
 				74654A152A2C9E7600A6ED4E /* AnimalListItemView.swift in Sources */,
 				BD72F69F2A2B66610073EB2C /* MainView.swift in Sources */,
+				74654A1F2A2CF76000A6ED4E /* InsetFactView.swift in Sources */,
 				BD72F6A22A2B6DF30073EB2C /* CoverImageView.swift in Sources */,
 				BD72F6A52A2B70860073EB2C /* CoverImageModel.swift in Sources */,
 				74654A192A2CB0E000A6ED4E /* AnimalDetailView.swift in Sources */,
 				74654A172A2CAB4500A6ED4E /* AnimalModel.swift in Sources */,
 				BD72F69B2A2B66370073EB2C /* MapView.swift in Sources */,
+				74654A212A2CFAC700A6ED4E /* InsetMapView.swift in Sources */,
 				BD72F66B2A2B5DC20073EB2C /* AfricaApp.swift in Sources */,
+				74654A232A2CFFC400A6ED4E /* ExternalWebLinkView.swift in Sources */,
 				BD72F6992A2B660D0073EB2C /* VideoListView.swift in Sources */,
 				BD72F69D2A2B664D0073EB2C /* GalleryView.swift in Sources */,
 				74654A1D2A2CB58500A6ED4E /* InsetGalleryView.swift in Sources */,
