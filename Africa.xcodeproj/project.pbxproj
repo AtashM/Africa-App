@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74654A152A2C9E7600A6ED4E /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A142A2C9E7600A6ED4E /* AnimalListItemView.swift */; };
+		74654A172A2CAB4500A6ED4E /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A162A2CAB4500A6ED4E /* AnimalModel.swift */; };
 		BD72F66B2A2B5DC20073EB2C /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72F66A2A2B5DC20073EB2C /* AfricaApp.swift */; };
 		BD72F66D2A2B5DC20073EB2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72F66C2A2B5DC20073EB2C /* ContentView.swift */; };
 		BD72F66F2A2B5DC40073EB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD72F66E2A2B5DC40073EB2C /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74654A142A2C9E7600A6ED4E /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		74654A162A2CAB4500A6ED4E /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		BD72F6672A2B5DC20073EB2C /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD72F66A2A2B5DC20073EB2C /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		BD72F66C2A2B5DC20073EB2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				BD72F6A12A2B6DF30073EB2C /* CoverImageView.swift */,
+				74654A142A2C9E7600A6ED4E /* AnimalListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				BD72F6A42A2B70860073EB2C /* CoverImageModel.swift */,
+				74654A162A2CAB4500A6ED4E /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,9 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD72F66D2A2B5DC20073EB2C /* ContentView.swift in Sources */,
+				74654A152A2C9E7600A6ED4E /* AnimalListItemView.swift in Sources */,
 				BD72F69F2A2B66610073EB2C /* MainView.swift in Sources */,
 				BD72F6A22A2B6DF30073EB2C /* CoverImageView.swift in Sources */,
 				BD72F6A52A2B70860073EB2C /* CoverImageModel.swift in Sources */,
+				74654A172A2CAB4500A6ED4E /* AnimalModel.swift in Sources */,
 				BD72F69B2A2B66370073EB2C /* MapView.swift in Sources */,
 				BD72F66B2A2B5DC20073EB2C /* AfricaApp.swift in Sources */,
 				BD72F6992A2B660D0073EB2C /* VideoListView.swift in Sources */,
@@ -329,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -383,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +409,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Africa/Preview Content\"";
-				DEVELOPMENT_TEAM = LD9FYT4B2R;
+				DEVELOPMENT_TEAM = QK89DRS8QC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Africa/Info.plist;
@@ -415,7 +423,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.atash.Africa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atash.Africa1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,7 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Africa/Preview Content\"";
-				DEVELOPMENT_TEAM = LD9FYT4B2R;
+				DEVELOPMENT_TEAM = QK89DRS8QC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Africa/Info.plist;
@@ -445,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.atash.Africa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atash.Africa1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
