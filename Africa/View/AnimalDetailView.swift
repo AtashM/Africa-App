@@ -96,7 +96,7 @@ struct AnimalDetailView_Previews: PreviewProvider {
     
     static var previews: some View {
         NavigationView{
-            AnimalDetailView(animal: animals[0])
+            AnimalDetailView(animal: animals[1])
         }
     }
 }
