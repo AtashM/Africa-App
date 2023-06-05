@@ -15,6 +15,8 @@
 		74654A1F2A2CF76000A6ED4E /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A1E2A2CF76000A6ED4E /* InsetFactView.swift */; };
 		74654A212A2CFAC700A6ED4E /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A202A2CFAC700A6ED4E /* InsetMapView.swift */; };
 		74654A232A2CFFC400A6ED4E /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A222A2CFFC400A6ED4E /* ExternalWebLinkView.swift */; };
+		74654A252A2D0FAA00A6ED4E /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A242A2D0FAA00A6ED4E /* VideoModel.swift */; };
+		74654A272A2D101500A6ED4E /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74654A262A2D101500A6ED4E /* VideoListItemView.swift */; };
 		BD72F66B2A2B5DC20073EB2C /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72F66A2A2B5DC20073EB2C /* AfricaApp.swift */; };
 		BD72F66D2A2B5DC20073EB2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72F66C2A2B5DC20073EB2C /* ContentView.swift */; };
 		BD72F66F2A2B5DC40073EB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD72F66E2A2B5DC40073EB2C /* Assets.xcassets */; };
@@ -51,6 +53,8 @@
 		74654A1E2A2CF76000A6ED4E /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		74654A202A2CFAC700A6ED4E /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		74654A222A2CFFC400A6ED4E /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
+		74654A242A2D0FAA00A6ED4E /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		74654A262A2D101500A6ED4E /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		BD72F6672A2B5DC20073EB2C /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD72F66A2A2B5DC20073EB2C /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		BD72F66C2A2B5DC20073EB2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -183,6 +187,7 @@
 				74654A1E2A2CF76000A6ED4E /* InsetFactView.swift */,
 				74654A202A2CFAC700A6ED4E /* InsetMapView.swift */,
 				74654A222A2CFFC400A6ED4E /* ExternalWebLinkView.swift */,
+				74654A262A2D101500A6ED4E /* VideoListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			children = (
 				BD72F6A42A2B70860073EB2C /* CoverImageModel.swift */,
 				74654A162A2CAB4500A6ED4E /* AnimalModel.swift */,
+				74654A242A2D0FAA00A6ED4E /* VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,8 +307,10 @@
 				BD72F66B2A2B5DC20073EB2C /* AfricaApp.swift in Sources */,
 				74654A232A2CFFC400A6ED4E /* ExternalWebLinkView.swift in Sources */,
 				BD72F6992A2B660D0073EB2C /* VideoListView.swift in Sources */,
+				74654A252A2D0FAA00A6ED4E /* VideoModel.swift in Sources */,
 				BD72F69D2A2B664D0073EB2C /* GalleryView.swift in Sources */,
 				74654A1D2A2CB58500A6ED4E /* InsetGalleryView.swift in Sources */,
+				74654A272A2D101500A6ED4E /* VideoListItemView.swift in Sources */,
 				BD72F6A82A2B71CD0073EB2C /* CodableBundleExtension.swift in Sources */,
 				74654A1B2A2CB3B200A6ED4E /* HeadingView.swift in Sources */,
 			);
@@ -361,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -415,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
